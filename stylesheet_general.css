@@ -1,0 +1,67 @@
+/* stylesheet for bio page */
+
+
+
+#profile {
+	width: 470px;
+	height:470px;
+	background-image: url(images/Steph_LUX.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 0px 0px;
+	display: flex;
+	border-radius: 50%;
+	box-shadow:0 0 30px 10px rgba(255,255,255,1);
+}
+
+.menu-container {
+	display: flex;
+	justify-content:center;
+	color: #fff;
+	background-color: #708090; /* slate gray */
+	padding: 20px 0;
+	font-family: Abril;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.menu {
+	width: 900px;
+	height: 15px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.content {
+	width: 900px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	background: repeating-linear-gradient(40deg, #48D1CC, #48D1CC 15px, #58a 0, #58a 30px);
+	background-size: cover;
+	padding: 10px;
+}
+
+.content > p {
+	font-family: Vollkorn;
+	background-color: rgba(255,255,255,0.7);
+	margin:5px;
+	padding: 15px;
+	font-size: 20px;
+	text-align: left;
+}
+	
+body {
+	background-color: #FAFAFA; /*gainsboro-gray*/
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+}
+
+#index-menu {
+	font-weight: bold;
+	color: #000;
+}
