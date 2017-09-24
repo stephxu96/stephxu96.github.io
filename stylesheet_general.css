@@ -1,42 +1,67 @@
-/* stylesheet for bio page */
-
-
-
-#profile {
-	width: 470px;
-	height:470px;
-	background-image: url(images/Steph_LUX.jpg);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: 0px 0px;
-	display: flex;
-	border-radius: 50%;
-	box-shadow:0 0 30px 10px rgba(255,255,255,1);
-}
+/* General styling for all pages */
 
 .menu-container {
 	display: flex;
 	justify-content:center;
-	color: #fff;
-	background-color: #708090; /* slate gray */
-	padding: 20px 0;
-	font-family: Abril;
+	color: #ffffff;
+	background-color: #3B3738; 
+  	padding: 20px 0; 
+	font-family: Baufra;
 	font-size: 20px;
 	margin-bottom: 50px;
 }
 
 .menu {
 	width: 900px;
-	height: 15px;
+	height: 30px;
 	display: flex;
 	justify-content: space-around;
 }
 
-.content {
-	width: 900px;
-	margin: auto;
+.profile-container {
+	min-height:100vh;
+	font-family: Palantino;
 	display: flex;
-	justify-content: center;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.profile{
+	flex: initial;
+	height:330px;
+	width: 34%;
+	padding-left: 20px;
+}
+
+.profile > img{
+	border: 20px solid hsla(0, 0%, 100%, 0.3);
+	background-color: rgba(116,175,173);	
+	background-clip: padding-box;
+	padding: 15px;
+}
+
+.header {
+	flex: initial;
+	flex-direction: column;
+	width: 66%;
+	padding-top: 100px;
+	padding-left: 10px;
+}
+
+.bio-header {
+	width: 32%;
+	padding-top: 100px;
+	padding-left: 10px;
+	padding-right: 50px;
+}
+
+.bio-header > h1 {
+	text-align: center;
+}
+
+.content {
+	align-items: flex-start;
+	width: 60%;
 	background: repeating-linear-gradient(40deg, #48D1CC, #48D1CC 15px, #58a 0, #58a 30px);
 	background-size: cover;
 	padding: 10px;
@@ -50,18 +75,24 @@
 	font-size: 20px;
 	text-align: left;
 }
-	
+
 body {
-	background-color: #FAFAFA; /*gainsboro-gray*/
+	background: linear-gradient(
+		to right,
+		#74AFAD 0%,
+		#74AFAD 34%, 
+		#ff9e2c 34%, 
+		#ff9e2c 100% 
+	);
 }
 
 a {
 	text-decoration: none;
 	font-weight: bold;
-	color: #fff;
+	color: #ffffff;
 }
 
 #index-menu {
 	font-weight: bold;
-	color: #000;
+	color: #000000;
 }
