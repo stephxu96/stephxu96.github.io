@@ -35,7 +35,6 @@
 
 .profile > img{
 	border: 20px solid hsla(0, 0%, 100%, 0.3);
-	background-color: rgba(116,175,173);	
 	background-clip: padding-box;
 	padding: 15px;
 }
